@@ -1,0 +1,105 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Encontrar a un empleados por su codigo",
+        "description": "",
+        "id": "obtener-detalle-de-empleados;encontrar-a-un-empleados-por-su-codigo;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7137292624,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "El supervisor busque el codigo de empleado 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 43
+                }
+              ],
+              "location": "GestionDeEmpleadosStepDefinition.el_supervisor_busca_por_codigo_empleado(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 597263875,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "podra encontrar al empleado George Bluth",
+            "match": {
+              "arguments": [
+                {
+                  "val": "George Bluth",
+                  "offset": 28
+                }
+              ],
+              "location": "GestionDeEmpleadosStepDefinition.podra_ver_los_detalles_del_empleado(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Encontrar a un empleados por su codigo",
+        "description": "",
+        "id": "obtener-detalle-de-empleados;encontrar-a-un-empleados-por-su-codigo;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1246576324,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "El supervisor busque el codigo de empleado 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 43
+                }
+              ],
+              "location": "GestionDeEmpleadosStepDefinition.el_supervisor_busca_por_codigo_empleado(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12342171,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "podra encontrar al empleado Janet  Waver",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Janet  Waver",
+                  "offset": 28
+                }
+              ],
+              "location": "GestionDeEmpleadosStepDefinition.podra_ver_los_detalles_del_empleado(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Obtener detalle de empleados",
+    "description": "Como Supervisor \nDeseo encontrar la informacion de un empleado \nY la lista de empleados por cada area\nPara tener actualizado la distribucion de empleados en la empresa",
+    "id": "obtener-detalle-de-empleados",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/gestionar_empleados/ObtenerEmpleados.feature",
+    "tags": []
+  }
+]
